@@ -1,0 +1,4 @@
+#!/bin/bash
+
+sudo apt update && sudo apt full-upgrade -y && sudo timeshift --create --rsync \ 
+&& cd *timeshift location* && ls -rt | tail -1 | xargs sudo tar -zcvf "$(date '+%y-%m-%d')".tar.gz > /*log location*/logs/tars.log
