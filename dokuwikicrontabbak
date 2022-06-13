@@ -1,0 +1,2 @@
+#weekly tar archive of my dokuwiki
+@weekly cd /*file location*/dokuwiki/dokuwiki && tar -cvf dokubak.tar data/ && mv dokubak.tar /*file location*/dokubak/
