@@ -1,2 +1,2 @@
+#make all jpg in file gray
 parallel -X mogrify -colorspace gray ::: *.jpg
-
